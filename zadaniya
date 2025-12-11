@@ -149,8 +149,15 @@ print(my_dict)
 
 # Задание 2
 sl = {'</>':13, 'script':1, '__init__':10, 'self':5, 'number_9':6, '#comment':100}
-x = input("key: ")
-if x == 7:
-    print()
-y = input("value: ")
+x = input("key: ") # ввод ключа
+y = input("value: ") # ввод значения
+sl[x] = y
 print(sl)
+
+# Задание 3
+slovar = {}
+while True:
+    x = input("key: ") # ввод ключа
+    y = input("value: ") # ввод значения
+    slovar[x] = y
+    print(slovar)
