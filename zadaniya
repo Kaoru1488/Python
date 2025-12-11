@@ -137,3 +137,20 @@ max_number = max(decimal_numbers)
 min_number = min(decimal_numbers)
 print(f"\nМаксимальное число: {max_number}")
 print(f"Минимальное число: {min_number}")
+
+# Практическая работа №8
+# Задание 1
+my_dict = {1:'0101101', 2:'101110', 3:'1A14C', 4:'1100100', 5:'101010'}
+print(my_dict)
+del_key = [3]
+for i in del_key:
+    my_dict.pop(i)
+print(my_dict)
+
+# Задание 2
+sl = {'</>':13, 'script':1, '__init__':10, 'self':5, 'number_9':6, '#comment':100}
+x = input("key: ")
+if x == 7:
+    print()
+y = input("value: ")
+print(sl)
